@@ -1,0 +1,1125 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <title>南京思畅云 | 各省运营情况汇总</title>
+
+      <link rel="stylesheet" href="static/css/backend-plugin.min.css">
+      <link rel="stylesheet" href="static/css/backend.css">
+    <!-- 引入 ECharts 文件 -->
+    <script src="../static/js/echarts.min.js"></script>
+
+  </head>
+  <body class="  ">
+    <!-- loader Start -->
+    <div id="loading">
+          <div id="loading-center">
+          </div>
+    </div>
+    <!-- loader END -->
+    <!-- Wrapper Start -->
+    <div class="wrapper">
+      <div class="iq-sidebar  sidebar-default  ">
+          <div class="iq-sidebar-logo d-flex align-items-end justify-content-between">
+               <a href="" class="header-logo">
+                  <img src="static/picture/logo.png" class="img-fluid rounded-normal light-logo" alt="logo">
+                  <img src="static/picture/logo-dark.png" class="img-fluid rounded-normal d-none sidebar-light-img" alt="logo">
+                  <span>南京思畅云</span>
+              </a>
+              <div class="side-menu-bt-sidebar-1">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="text-light wrapper-menu" width="30" fill="none" viewbox="0 0 24 24" stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+                      </svg>
+                  </div>
+          </div>
+          <div class="data-scrollbar" data-scroll="1">
+              <nav class="iq-sidebar-menu">
+                  <ul id="iq-sidebar-toggle" class="side-menu">
+                      <li class="active sidebar-layout">
+                          <a href="/" class="svg-icon">
+                              <img src="static/picture/chongqing.png" class="img-fluid rounded-normal light-logo" width="18" alt="logo">
+                              <span class="ml-2">重庆</span>
+                          </a>
+                      </li>
+                      <li class="active sidebar-layout">
+                          <a href="/hebei" class="svg-icon">
+                              <img src="static/picture/hebei.png" class="img-fluid rounded-normal light-logo" width="18" alt="logo">
+                              <span class="ml-2">河北</span>
+                          </a>
+                      </li>
+                      <li class="active sidebar-layout">
+                          <a href="/shanxi" class="svg-icon">
+                              <img src="static/picture/shanxi.png" class="img-fluid rounded-normal light-logo" width="18" alt="logo">
+                              <span class="ml-2">山西</span>
+                          </a>
+                      </li>
+                      <li class="active sidebar-layout">
+                          <a href="/heilongjiang" class="svg-icon">
+                              <img src="static/picture/heilongjiang.png" class="img-fluid rounded-normal light-logo" width="18" alt="logo">
+                              <span class="ml-2">黑龙江</span>
+                          </a>
+                      </li>
+                      <li class="px-3 pt-3 pb-2 ">
+                          <span class="text-uppercase small font-weight-bold">公司</span>
+                      </li>
+                      <li class=" sidebar-layout">
+                          <a href="/" class="svg-icon ">
+                              <i class="">
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="18" fill="none" viewbox="0 0 24 24" stroke="currentColor">
+                                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path>
+                                  </svg>
+                              </i>
+                              <span class="ml-2">团队</span>
+                          </a>
+                      </li>
+                      <li class=" sidebar-layout">
+                          <a href="/" class="svg-icon">
+                              <i class="">
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="18" fill="none" viewbox="0 0 24 24" stroke="currentColor">
+                                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z"></path>
+                                  </svg>
+                              </i>
+                              <span class="ml-2">介绍</span>
+                          </a>
+                      </li>
+                      <li class=" sidebar-layout">
+                          <a href="/" class="svg-icon">
+                              <i class="">
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="18" fill="none" viewbox="0 0 24 24" stroke="currentColor">
+                                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"></path>
+                                  </svg>
+                              </i>
+                              <span class="ml-2">联系方式</span>
+                          </a>
+                      </li>
+
+                  </ul>
+              </nav>
+              <div class="pt-5 pb-5"></div>
+          </div>
+      </div>
+       <div class="iq-top-navbar">
+          <div class="iq-navbar-custom">
+              <nav class="navbar navbar-expand-lg navbar-light p-0">
+                  <div class="side-menu-bt-sidebar">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="text-secondary wrapper-menu" width="30" fill="none" viewbox="0 0 24 24" stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                      </svg>
+                  </div>
+                  <div class="d-flex align-items-center">
+                      <div class="change-mode">
+                          <div class="custom-control custom-switch custom-switch-icon custom-control-inline">
+                              <div class="custom-switch-inner">
+                                  <p class="mb-0"> </p>
+                                  <input type="checkbox" class="custom-control-input" id="dark-mode" data-active="true">
+                                  <label class="custom-control-label" for="dark-mode" data-mode="toggle">
+                                      <span class="switch-icon-right">
+                                          <svg xmlns="http://www.w3.org/2000/svg" id="h-moon" height="20" width="20" class="h-6 w-6" fill="none" viewbox="0 0 24 24" stroke="currentColor">
+                                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"></path>
+                                          </svg>
+                                      </span>
+                                      <span class="switch-icon-left">
+                                          <svg xmlns="http://www.w3.org/2000/svg" id="h-sun" height="20" width="20" class="h-6 w-6" fill="none" viewbox="0 0 24 24" stroke="currentColor">
+                                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"></path>
+                                          </svg>
+                                      </span>
+                                  </label>
+                              </div>
+                          </div>
+                      </div>
+                      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-label="Toggle navigation">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="text-secondary" width="30" fill="none" viewbox="0 0 24 24" stroke="currentColor">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                          </svg>
+                      </button>
+
+                  </div>
+              </nav>
+          </div>
+      </div>
+      <div class="content-page">
+<div class="container-fluid">
+   <div class="row">
+      <div class="col-md-12 mb-4 mt-1">
+         <div class="d-flex flex-wrap justify-content-between align-items-center">
+             <h4 class="font-weight-bold">黑龙江当月总体情况</h4>
+
+         </div>
+      </div>
+      <div class="col-lg-8 col-md-12">
+         <div class="row">
+            <div class="col-md-4">
+               <div class="card">
+                  <div class="card-body">
+                     <div class="d-flex align-items-center">
+                        <div class="">
+                            <p class="mb-2 text-secondary">{{ month }}月{{ today }}日销量</p>
+                            <div class="d-flex flex-wrap justify-content-start align-items-center">
+                               <h5 class="mb-0 font-weight-bold">{{ datalist[today-1][1] }}</h5>
+                                {% if datalist[today-1][1]-lastdatalist[today-1][1]<0 %}
+                                    <p class="mb-0 ml-3 text-danger font-weight-bold">
+                                    {{ "%.2f%%" % ((datalist[today - 1][1] - lastdatalist[today - 1][1]) / lastdatalist[today - 1][1] * 100) }}
+                                    </p>
+                                {% else %}
+                                    <p class="mb-0 ml-3 text-success font-weight-bold">
+                                    {{ "%.2f%%" % ((datalist[today - 1][1] - lastdatalist[today - 1][1]) / lastdatalist[today - 1][1] * 100) }}
+                                    </p>
+                                {% endif %}
+                            </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <div class="d-flex align-items-center">
+                        <div class="">
+                            <p class="mb-2 text-secondary">当月总销量</p>
+                            <div class="d-flex flex-wrap justify-content-start align-items-center">
+                               <h5 class="mb-0 font-weight-bold">{{ totalsal }}</h5>
+                                {% if totalsal - lasttotalsal < 0 %}
+                                    <p class="mb-0 ml-3 text-danger font-weight-bold">
+                                    {{ "%.2f%%" % ((totalsal - lasttotalsal) / lasttotalsal * 100) }}
+                                    </p>
+                                {% else %}
+                                    <p class="mb-0 ml-3 text-success font-weight-bold">
+                                    {{ "%.2f%%" % ((totalsal - lasttotalsal) / lasttotalsal * 100) }}
+                                    </p>
+                                {% endif %}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <div class="d-flex align-items-center">
+                        <div class="">
+                           <p class="mb-2 text-secondary">当月总收入</p>
+                           <div class="d-flex flex-wrap justify-content-start align-items-center">
+                              <h5 class="mb-0 font-weight-bold">{{ datalist[today - 1][3] }}</h5>
+                               {% if datalist[today-1][3]-lastdatalist[today-1][3]<0 %}
+                                    <p class="mb-0 ml-3 text-danger font-weight-bold">
+                                {% else %}
+                                    <p class="mb-0 ml-3 text-success font-weight-bold">
+                                {% endif %}
+                                {{ "%.2f%%" % ((datalist[today - 1][3] - lastdatalist[today - 1][3]) / lastdatalist[today - 1][3] * 100) }}
+                                </p>
+                           </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="col-md-12">
+            <div class="card">
+                <div id="gechanpinxiaoliang" class="card-body" style="width: 700px;height:400px;">
+                <script type="text/javascript">
+                    var chartDom = document.getElementById('gechanpinxiaoliang');
+                    var myChart = echarts.init(chartDom);
+                    var option;
+                    var yuyindata = [];
+                    var chaohuidata = [];
+                    var yuebaodata = [];
+                    var shengdaidata = [];
+                    var jiasudata = [];
+                    var zunxiangdata = [];
+
+                    {% for d in range(31) %}
+                        shengdaidata.push({{ datalist[d][5] }})
+                        chaohuidata.push({{ datalist[d][6] }})
+                        yuyindata.push({{ datalist[d][7] }})
+                        yuebaodata.push({{ datalist[d][8] }})
+                        jiasudata.push({{ datalist[d][9] }})
+                        zunxiangdata.push({{ datalist[d][10] }})
+
+                    {% endfor %};
+                    option = {
+                        title: {
+                            text: '各产品销量',
+                            textStyle:{
+                                fontSize: '25',
+                            }
+                        },
+                        tooltip: {
+                            trigger: 'axis'
+                        },
+                        legend: {
+                            data: ['圣代包', '超会', '语音包', '月包','加速包', '尊享包'],
+                            left: '20%'
+                        },
+                        grid: {
+                            left: '3%',
+                            right: '4%',
+                            bottom: '3%',
+                            containLabel: true
+                        },
+                        xAxis: {
+                            type: 'category',
+                            boundaryGap: false,
+                            data: ['1日','2日','3日','4日','5日','6日','7日','8日','9日','10日','11日','12日','13日','14日','15日','16日','17日','18日','19日','20日',
+                                '21日','22日','23日','24日','25日','26日','27日','28日','29日','30日','31日']
+                        },
+                        yAxis: {
+                            type: 'value'
+                        },
+                        series: [
+                            {
+                                name: '圣代包',
+                                type: 'line',
+
+                                smooth: true,
+
+                                lineStyle: {
+                                    width: 3
+                                },
+                                color: 'rgba(97, 171, 232, 91)',
+                                showSymbol: false,
+                                areaStyle:{
+                                    normal:{
+                                       //颜色渐变函数 前四个参数分别表示四个位置依次为左、下、右、上
+                                        color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [{
+                                            offset: 0,
+                                            color: 'rgba(80,141,255,0.39)'
+                                        }, {
+                                            offset: .34,
+                                            color: 'rgba(56,155,255,0.25)'
+                                        },{
+                                            offset: 1,
+                                            color: 'rgba(38,197,254,0.00)'
+                                        }])
+                                    }
+                                },
+                                data: shengdaidata
+                            },
+                            {
+                                name: '超会',
+                                type: 'line',
+
+                                smooth: true,
+
+                                lineStyle: {
+                                    width: 3
+                                },
+                                color: 'rgba(107, 227, 255, 100)',
+                                showSymbol: false,
+                                areaStyle:{
+                                    normal:{
+                                       //颜色渐变函数 前四个参数分别表示四个位置依次为左、下、右、上
+                                        color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [{
+
+                                            offset: 0,
+                                            color: 'rgba(80,141,255,0.39)'
+                                        }, {
+                                            offset: .34,
+                                            color: 'rgba(56,155,255,0.25)'
+                                        },{
+                                            offset: 1,
+                                            color: 'rgba(38,197,254,0.00)'
+                                        }])
+
+                                    }
+                                },
+                                data: chaohuidata
+                            },
+                            {
+                                name: '语音包',
+                                type: 'line',
+
+                                smooth: true,
+
+                                lineStyle: {
+                                    width: 3
+                                },
+                                color: 'rgba(86, 167, 232, 91)',
+                                showSymbol: false,
+                                areaStyle:{
+                                    normal:{
+                                       //颜色渐变函数 前四个参数分别表示四个位置依次为左、下、右、上
+                                        color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [{
+
+                                            offset: 0,
+                                            color: 'rgba(80,141,255,0.39)'
+                                        }, {
+                                            offset: .34,
+                                            color: 'rgba(56,155,255,0.25)'
+                                        },{
+                                            offset: 1,
+                                            color: 'rgba(38,197,254,0.00)'
+                                        }])
+
+                                    }
+                                },
+                                data: yuyindata
+                            },
+                            {
+                                name: '月包',
+                                type: 'line',
+
+                                smooth: true,
+
+                                lineStyle: {
+                                    width: 3
+                                },
+                                color: 'rgba(86, 232, 219, 91)',
+                                showSymbol: false,
+                                areaStyle:{
+                                    normal:{
+                                       //颜色渐变函数 前四个参数分别表示四个位置依次为左、下、右、上
+                                        color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [{
+
+                                            offset: 0,
+                                            color: 'rgba(80,141,255,0.39)'
+                                        }, {
+                                            offset: .34,
+                                            color: 'rgba(56,155,255,0.25)'
+                                        },{
+                                            offset: 1,
+                                            color: 'rgba(38,197,254,0.00)'
+                                        }])
+
+                                    }
+                                },
+                                data: yuebaodata
+                            },
+                            {
+                                name: '加速包',
+                                type: 'line',
+
+                                smooth: true,
+
+                                lineStyle: {
+                                    width: 3
+                                },
+                                color: 'rgba(94, 255, 196, 100)',
+                                showSymbol: false,
+                                areaStyle:{
+                                    normal:{
+                                       //颜色渐变函数 前四个参数分别表示四个位置依次为左、下、右、上
+                                        color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [{
+
+                                            offset: 0,
+                                            color: 'rgba(80,141,255,0.39)'
+                                        }, {
+                                            offset: .34,
+                                            color: 'rgba(56,155,255,0.25)'
+                                        },{
+                                            offset: 1,
+                                            color: 'rgba(38,197,254,0.00)'
+                                        }])
+
+                                    }
+                                },
+                                data: jiasudata
+                            },
+                            {
+                                name: '尊享包',
+                                type: 'line',
+
+                                smooth: true,
+
+                                lineStyle: {
+                                    width: 3
+                                },
+                                color: 'rgba(91, 104, 255, 100)',
+                                showSymbol: false,
+                                areaStyle:{
+                                    normal:{
+                                       //颜色渐变函数 前四个参数分别表示四个位置依次为左、下、右、上
+                                        color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [{
+
+                                            offset: 0,
+                                            color: 'rgba(80,141,255,0.39)'
+                                        }, {
+                                            offset: .34,
+                                            color: 'rgba(56,155,255,0.25)'
+                                        },{
+                                            offset: 1,
+                                            color: 'rgba(38,197,254,0.00)'
+                                        }])
+
+                                    }
+                                },
+                                data: zunxiangdata
+                            },
+                        ]
+                    };
+                    option && myChart.setOption(option);
+                </script>
+
+                </div>
+                </div>
+            </div>
+            </div>
+            <div class="col-md-12">
+            <div class="card">
+                <div id="duoribaoxiaoliang" class="card-body" style="width: 700px;height:400px;">
+                <script type="text/javascript">
+                    var chartDom = document.getElementById('duoribaoxiaoliang');
+                    var myChart = echarts.init(chartDom);
+                    var option;
+                    var duoribaodata = [];
+                    var lastduoribaodata = [];
+                    {% for d in range(31) %}
+                        duoribaodata.push({{ datalist[d][4] }})
+                        lastduoribaodata.push({{ lastdatalist[d][4] }})
+                    {% endfor %}
+                    option = {
+                        title: {
+                            text: '多日包销量',
+                            textStyle:{
+                                fontSize: '25',
+                            }
+                        },
+                        tooltip: {
+                            trigger: 'axis'
+                        },
+                        legend: {
+                            data: ['本月','上月']
+                        },
+                        grid: {
+                            left: '3%',
+                            right: '4%',
+                            bottom: '3%',
+                            containLabel: true
+                        },
+                        xAxis: {
+                            type: 'category',
+                            boundaryGap: false,
+                            data: ['1日','2日','3日','4日','5日','6日','7日','8日','9日','10日','11日','12日','13日','14日','15日','16日','17日','18日','19日','20日',
+                                '21日','22日','23日','24日','25日','26日','27日','28日','29日','30日','31日']
+                        },
+                        yAxis: {
+                            type: 'value'
+                        },
+                        series: [
+                            {
+                                name: '本月',
+                                type: 'line',
+
+                                smooth: true,
+
+                                lineStyle: {
+                                    width: 3
+                                },
+                                color: 'rgba(120, 159, 255, 100)',
+                                showSymbol: false,
+                                areaStyle:{
+                                    normal:{
+                                       //颜色渐变函数 前四个参数分别表示四个位置依次为左、下、右、上
+                                        color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [{
+
+                                            offset: 0,
+                                            color: 'rgba(80,141,255,0.39)'
+                                        }, {
+                                            offset: .34,
+                                            color: 'rgba(56,155,255,0.25)'
+                                        },{
+                                            offset: 1,
+                                            color: 'rgba(38,197,254,0.00)'
+                                        }])
+
+                                    }
+                                },
+                                data: duoribaodata
+                            },
+                            {
+                                name: '上月',
+                                type: 'line',
+
+                                smooth: true,
+
+                                lineStyle: {
+                                    width: 3
+                                },
+                                color: 'rgba(107, 227, 255, 100)',
+                                showSymbol: false,
+                                areaStyle:{
+                                    normal:{
+                                       //颜色渐变函数 前四个参数分别表示四个位置依次为左、下、右、上
+                                        color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [{
+
+                                            offset: 0,
+                                            color: 'rgba(80,141,255,0.39)'
+                                        }, {
+                                            offset: .34,
+                                            color: 'rgba(56,155,255,0.25)'
+                                        },{
+                                            offset: 1,
+                                            color: 'rgba(38,197,254,0.00)'
+                                        }])
+
+                                    }
+                                },
+                                data: lastduoribaodata
+                            }
+                        ]
+                    };
+                    option && myChart.setOption(option);
+                </script>
+             </div>
+             </div>
+         </div>
+      </div>
+
+      <div class="col-md-4">
+         <div class="row">
+            <div class="col-md-12">
+               <div class="card bg-primary">
+                   <div class="card-body">
+                       <div class="d-flex align-items-center">
+                           <div class="fit-icon-2 text-info text-center">
+
+                               <div id="circle-progress-01" class="circle-progress-01 circle-progress circle-progress-light" data-min-value="0" data-max-value="100" data-value={{ ("%.2f%%" % (datalist[today - 1][3] / 120000 * 100)) }} data-type="percent">
+                               </div>
+                           </div>
+                           <div class="ml-3">
+                               <h5 class="text-white font-weight-bold">{{ datalist[today - 1][3] }} <small> /120,000</small></h5>
+                               <small class="mb-0">目标达成</small>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+            </div>
+            <div class="col-md-12">
+               <div class="card">
+                  <div id="dinggou" class="card-body" style="width: 400px;height:400px;">
+                     <!-- 为ECharts准备一个具备大小（宽高）的Dom -->
+                    <script type="text/javascript">
+                         var chartDom = document.getElementById('dinggou');
+                        var myChart = echarts.init(chartDom);
+                        var option;
+
+                        var dataAxis = ['1日','2日','3日','4日','5日','6日','7日','8日','9日','10日','11日','12日','13日','14日','15日','16日','17日','18日','19日','20日',
+                                '21日','22日','23日','24日','25日','26日','27日','28日','29日','30日','31日'];
+                        var data = []
+                         {% for i in range(31) %}
+                            data.push({{ datalist[i][13] }})
+                         {% endfor %}
+                        ;
+                        var yMax = 500;
+                        var dataShadow = [];
+
+                        for (var i = 0; i < data.length; i++) {
+                            dataShadow.push(yMax);
+                        }
+
+                        option = {
+                            title: {
+                                text: '订购量',
+                                textStyle:{
+                                    fontSize: '25',
+                                }
+                            },
+                            grid:{
+                                left: '8%',
+                                right: '0%',
+                            },
+                            tooltip : {
+                                trigger: 'axis',
+
+                            },
+                            xAxis: {
+                                data: dataAxis,
+                                axisLabel: {
+                                    inside: true,
+                                    textStyle: {
+                                        color: '#fff'
+                                    }
+                                },
+                                axisTick: {
+                                    show: false
+                                },
+                                axisLine: {
+                                    show: false
+                                },
+                                z: 10
+                            },
+                            yAxis: {
+                                axisLine: {
+                                    show: false
+                                },
+                                axisTick: {
+                                    show: false
+                                },
+                                axisLabel: {
+                                    textStyle: {
+                                        color: '#999'
+                                    }
+                                }
+                            },
+                            dataZoom: [
+                                {
+                                    type: 'inside'
+                                }
+                            ],
+                            series: [
+                                {
+                                    type: 'bar',
+                                    itemStyle: {
+                                        barBorderRadius: [12, 12, 12, 12],
+                                        color: new echarts.graphic.LinearGradient(
+                                            0, 0, 0, 1,
+                                            [
+                                                {offset: 1, color: '#83bff6'},
+                                                {offset: 0.5, color: '#188df0'},
+                                                {offset: 1, color: '#188df0'}
+                                            ]
+                                        )
+                                    },
+                                    emphasis: {
+                                        itemStyle: {
+                                            color: new echarts.graphic.LinearGradient(
+                                                0, 0, 0, 1,
+                                                [
+                                                    {offset: 0, color: '#2378f7'},
+                                                    {offset: 0.7, color: '#2378f7'},
+                                                    {offset: 1, color: '#83bff6'}
+                                                ]
+                                            )
+                                        }
+                                    },
+                                    data: data
+                                }
+                            ]
+                        };
+
+                        // Enable data zoom when user click bar.
+                        var zoomSize = 6;
+                        myChart.on('click', function (params) {
+                            console.log(dataAxis[Math.max(params.dataIndex - zoomSize / 2, 0)]);
+                            myChart.dispatchAction({
+                                type: 'dataZoom',
+                                startValue: dataAxis[Math.max(params.dataIndex - zoomSize / 2, 0)],
+                                endValue: dataAxis[Math.min(params.dataIndex + zoomSize / 2, data.length - 1)]
+                            });
+                        });
+
+                        option && myChart.setOption(option);
+                    </script>
+                  </div>
+               </div>
+            </div>
+
+             <div class="col-md-12">
+               <div class="card">
+                     <div id="faqi" class="card-body" style="width: 400px;height:400px;">
+                     <!-- 为ECharts准备一个具备大小（宽高）的Dom -->
+                    <script type="text/javascript">
+                         var chartDom = document.getElementById('faqi');
+                        var myChart = echarts.init(chartDom);
+                        var option;
+
+                        var dataAxis = ['1日','2日','3日','4日','5日','6日','7日','8日','9日','10日','11日','12日','13日','14日','15日','16日','17日','18日','19日','20日',
+                                '21日','22日','23日','24日','25日','26日','27日','28日','29日','30日','31日'];
+                        var data = []
+                         {% for i in range(31) %}
+                            data.push({{ datalist[i][11] }})
+                         {% endfor %}
+                        ;
+                        var yMax = 500;
+                        var dataShadow = [];
+
+                        for (var i = 0; i < data.length; i++) {
+                            dataShadow.push(yMax);
+                        }
+
+                        option = {
+                            title: {
+                                text: '发起量',
+                                textStyle:{
+                                    fontSize: '25',
+                                }
+                            },
+                            grid:{
+                                left: '8%',
+                                right: '0%',
+                            },
+                            tooltip : {
+                                trigger: 'axis',
+
+                            },
+                            xAxis: {
+                                data: dataAxis,
+                                axisLabel: {
+                                    inside: true,
+                                    textStyle: {
+                                        color: '#fff'
+                                    }
+                                },
+                                axisTick: {
+                                    show: false
+                                },
+                                axisLine: {
+                                    show: false
+                                },
+                                z: 10
+                            },
+                            yAxis: {
+                                axisLine: {
+                                    show: false
+                                },
+                                axisTick: {
+                                    show: false
+                                },
+                                axisLabel: {
+                                    textStyle: {
+                                        color: '#999'
+                                    }
+                                }
+                            },
+                            dataZoom: [
+                                {
+                                    type: 'inside'
+                                }
+                            ],
+                            series: [
+                                {
+                                    type: 'bar',
+                                    itemStyle: {
+                                        barBorderRadius: [12, 12, 12, 12],
+                                        color: new echarts.graphic.LinearGradient(
+                                            0, 0, 0, 1,
+                                            [
+                                                {offset: 1, color: '#83bff6'},
+                                                {offset: 0.5, color: '#188df0'},
+                                                {offset: 1, color: '#188df0'}
+                                            ]
+                                        )
+                                    },
+                                    emphasis: {
+                                        itemStyle: {
+                                            color: new echarts.graphic.LinearGradient(
+                                                0, 0, 0, 1,
+                                                [
+                                                    {offset: 0, color: '#2378f7'},
+                                                    {offset: 0.7, color: '#2378f7'},
+                                                    {offset: 1, color: '#83bff6'}
+                                                ]
+                                            )
+                                        }
+                                    },
+                                    data: data
+                                }
+                            ]
+                        };
+
+                        // Enable data zoom when user click bar.
+                        var zoomSize = 6;
+                        myChart.on('click', function (params) {
+                            console.log(dataAxis[Math.max(params.dataIndex - zoomSize / 2, 0)]);
+                            myChart.dispatchAction({
+                                type: 'dataZoom',
+                                startValue: dataAxis[Math.max(params.dataIndex - zoomSize / 2, 0)],
+                                endValue: dataAxis[Math.min(params.dataIndex + zoomSize / 2, data.length - 1)]
+                            });
+                        });
+
+                        option && myChart.setOption(option);
+                    </script>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+
+
+      <div class="col-lg-4 col-md-4">
+         <div class="card">
+            <div class="card-body" id="xiaoliangzhanbi" style="width: 400px;height:400px;">
+                <script type="text/javascript">
+                     var chartDom = document.getElementById('xiaoliangzhanbi');
+                    var myChart = echarts.init(chartDom);
+                    var option;
+                    var duoribao = 0;
+                    var shengdai = 0;
+                    var chaohui = 0;
+                    var yuyinbao = 0;
+                    var yuebao = 0;
+                    var jiasu = 0;
+                    var zunxiang = 0;
+                    var sum = 0;
+                     {% for d in range(today) %}
+                         duoribao += {{ datalist[d][4] }}
+                         shengdai += {{ datalist[d][5] }}
+                         chaohui += {{ datalist[d][6] }}
+                         yuyinbao += {{ datalist[d][7] }}
+                         yuebao += {{ datalist[d][8] }}
+                         jiasu += {{ datalist[d][9] }}
+                         zunxiang += {{ datalist[d][10] }}
+                         sum = duoribao + yuyinbao + shengdai + chaohui + yuebao + jiasu + zunxiang
+                     {% endfor %};
+
+                    option = {
+                    tooltip: {
+                        trigger: 'item'
+                    },
+                    legend: {
+                        x : 'center',
+                        y : 'bottom'
+                    },
+                    title:{
+                        text:'各产品销量占比',
+                        x : 'center',
+                        textStyle:{
+                            fontSize: '25',
+                        }
+                    },
+                    graphic:{
+                        type:'text',
+                        left:'center',
+                        top:'center',
+                        style:{
+                            text: '总销量 \n' + sum,
+                            textAlign:'center',
+                            fill:'gray',
+                            fontSize: '20',
+                        }
+                    },
+                    series: [
+                        {
+                            name: '访问来源',
+                            type: 'pie',
+                            radius: ['40%', '70%'],
+                            avoidLabelOverlap: false,
+                            itemStyle: {
+                                borderRadius: 10,
+                                borderColor: '#fff',
+                                borderWidth: 2
+                            },
+                            label: {
+                                show: true,
+                                position: 'inside'
+                            },
+                            emphasis: {
+                                label: {
+                                    show: true,
+                                    fontSize: '20',
+                                    fontWeight: 'bold'
+                                }
+                            },
+                            labelLine: {
+                                show: false
+                            },
+                            data: [
+
+                                {value: duoribao, name: '多日包'},
+                                {value: yuyinbao, name: '语音包'},
+                                {value: shengdai, name: '圣代包'},
+                                {value: chaohui, name: '超会'},
+                                {value: yuebao, name: '月包'},
+                                {value: jiasu, name: '加速包'},
+                                {value: zunxiang, name: '尊享包'},
+                                ,
+                            ]
+                        }
+                    ]
+                };
+        option && myChart.setOption(option);
+    </script>
+            </div>
+         </div>
+      </div>
+       <div class="col-lg-4 col-md-6">
+         <div class="card">
+            <div class="card-body" id="yongjinzhanbi" style="width: 400px;height:400px;">
+               <script type="text/javascript">
+                     var chartDom = document.getElementById('yongjinzhanbi');
+                    var myChart = echarts.init(chartDom);
+                    var option;
+
+                    option = {
+                    tooltip: {
+                        trigger: 'item'
+                    },
+                    legend: {
+                        x : 'center',
+                        y : 'bottom'
+                    },
+                    title:{
+                        text:'各产品佣金占比',
+                        x : 'center',
+                        textStyle:{
+                            fontSize: '25',
+                        }
+                    },
+                    graphic:{
+                        type:'text',
+                        left:'center',
+                        top:'center',
+                        style:{
+                            text: '总佣金 \n' + {{ (datalist[today - 1][15]+datalist[today - 1][16]+datalist[today - 1][17]+datalist[today - 1][18]+datalist[today - 1][19]+datalist[today - 1][20]+datalist[today - 1][14])|int }},
+                            textAlign:'center',
+                            fill:'gray',
+                            fontSize: '20',
+                        }
+                    },
+                    series: [
+                        {
+                            name: '访问来源',
+                            type: 'pie',
+                            radius: ['40%', '70%'],
+                            avoidLabelOverlap: false,
+                            itemStyle: {
+                                borderRadius: 10,
+                                borderColor: '#fff',
+                                borderWidth: 2
+                            },
+                            label: {
+                                show: true,
+                                position: 'inside',
+                            },
+                            emphasis: {
+                                label: {
+                                    show: true,
+                                    fontSize: '20',
+                                    fontWeight: 'bold'
+                                }
+                            },
+                            labelLine: {
+                                show: false
+                            },
+                            data: [
+                                {value: {{ datalist[today - 1][14] }}, name:'多日包'},
+                                {value: {{ datalist[today - 1][17] }}, name:'语音包'},
+                                {value: {{ datalist[today - 1][15] }}, name:'圣代包'},
+                                {value: {{ datalist[today - 1][16] }}, name: '超会'},
+                                {value: {{ datalist[today - 1][18] }}, name: '月包'},
+                                {value: {{ datalist[today - 1][19] }}, name: '冰激凌加速包'},
+                                {value: {{ datalist[today - 1][20] }}, name: '尊享包'},
+
+                            ]
+                        }
+                    ]
+                };
+        option && myChart.setOption(option);
+    </script>
+            </div>
+         </div>
+      </div>
+
+   <div class="col-lg-4">
+               <div class="card">
+                  <div id="zhuanhualv" class="card-body" style="width: 400px;height:380px;">
+                     <!-- 为ECharts准备一个具备大小（宽高）的Dom -->
+                    <script type="text/javascript" >
+                        var chartDom = document.getElementById('zhuanhualv');
+                        var myChart = echarts.init(chartDom);
+                        var option;
+
+                        option = {
+                            title:{
+                                text: '成功转化率',
+                                textStyle:{
+                                    fontSize: '25',
+                                }
+                            },
+                            grid:{
+                                  left: '8%',
+                                  right: '0%',
+                            },
+                            series: [{
+                                type: 'gauge',
+                                progress: {
+                                    show: true,
+                                    width: 18
+                                },
+                                axisLine: {
+                                    lineStyle: {
+                                        width: 5
+                                    }
+                                },
+                                axisTick: {
+                                    show: false
+                                },
+                                splitLine: {
+                                    length: 12,
+                                    lineStyle: {
+                                        width: 1,
+                                        color: '#999'
+                                    }
+                                },
+                                axisLabel: {
+                                    distance: 10,
+                                    color: '#999',
+                                    fontSize: 20
+                                },
+                                anchor: {
+                                    show: true,
+                                    showAbove: true,
+                                    size: 25,
+                                    itemStyle: {
+                                        borderWidth: 10
+                                    }
+                                },
+                                detail: {
+                                    valueAnimation: true,
+                                    fontSize: 40,
+                                    offsetCenter: [0, '40%']
+                                },
+                                data: [{
+                                    value: {{ (totalsal/totalfaqi*100)|int }}
+                                }]
+                            }]
+                        };
+                        option && myChart.setOption(option);
+                    </script>
+                  </div>
+               </div>
+            </div>
+   </div>
+    <!-- Page end  -->
+</div>
+      </div>
+    </div>
+    <!-- Wrapper End-->
+    <footer class="iq-footer">
+        <div class="container-fluid">
+            <div class="row">
+
+                <div class="col-lg-6 text-right">
+                    <span class="mr-1"> &copy; 2021.南京思畅云创新技术有限公司.</span>
+                </div>
+            </div>
+        </div>
+    </footer>    <!-- Backend Bundle JavaScript -->
+    <script src="static/js/backend-bundle.min.js"></script>
+    <!-- Chart Custom JavaScript -->
+    <script src="static/js/customizer.js"></script>
+
+    <script src="static/js/sidebar.js"></script>
+
+    <!-- Flextree Javascript-->
+    <script src="static/js/flex-tree.min.js"></script>
+    <script src="static/js/tree.js"></script>
+
+    <!-- Table Treeview JavaScript -->
+    <script src="static/js/table-treeview.js"></script>
+
+    <!-- SweetAlert JavaScript -->
+    <script src="static/js/sweetalert.js"></script>
+
+    <!-- Vectoe Map JavaScript -->
+    <script src="static/js/vector-map-custom.js"></script>
+
+    <!-- Chart Custom JavaScript -->
+    <script src="static/js/chart-custom.js"></script>
+    <script src="static/js/01.js"></script>
+    <script src="static/js/02.js"></script>
+
+    <!-- slider JavaScript -->
+    <script src="static/js/slider.js"></script>
+
+    <!-- Emoji picker -->
+    <script src="static/js/index.js" type="module"></script>
+
+
+    <!-- app JavaScript -->
+    <script src="static/js/app.js"></script>  </body>
+</html>

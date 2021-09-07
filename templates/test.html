@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>ECharts</title>
+    <!-- 引入 echarts.js -->
+    <script src="../static/js/echarts.min.js"></script>
+</head>
+<body>
+
+    <!-- 为ECharts准备一个具备大小（宽高）的Dom -->
+    <div id="main" style="width: 600px;height:400px;"></div>
+    <script type="text/javascript">
+        //三种占比
+        var myChartType = echarts.init(document.getElementById('type_chart'));
+        var gailanTotal="";
+        option = {
+            legend: {
+                icon: "circle",
+                orient: 'vertical',
+                right: 50,
+                bottom: 20,
+                selectedMode: false, //取消图例上的点击事件
+                data: ['轿车', 'SUV', 'MPV']
+            },
+            //点击提示文字
+            tooltip: {
+                trigger: 'item',
+                formatter: "{a} <br/>{b}: {c} ({d}%)",
+
+
+            },
+            //环形颜色
+            color: ['#0C7BE3', '#5BA1E3', '#88B7E3'],
+            // 设置环形中间的数据
+            graphic: [{
+                type: 'text',
+                left: '34%',
+                top: '55%',
+                z: 10,
+                style: {
+                    fill: '#1a1a1a',
+                    text: gailanTotal,
+                    font: '16px Microsoft YaHei'
+                }
+            }],
+            series: [{
+                name: '访问来源',
+                type: 'pie',
+                radius: ['35%', '55%'], //两个表示环：内半径,外半径
+                center: ['43%', '58%'],//左右，上下
+                avoidLabelOverlap: false,
+                label: {
+                    normal: {
+                        show: true,
+                        position: 'outer',
+                        // formatter: '{d}%, {c} \n\n',
+                        //模板变量有 {a}, {b}，{c}，{d}，{e}，分别表示系列名，数据名，数据值等。
+                        formatter: "{a_set|{b},{d}%}\n{c_set|{c}辆}\n\n\n",
+                        borderWidth: 20,
+                        borderRadius: 4,
+                        padding: [90, -50],
+                        rich: {
+                            a_set: {
+                                color: "#1a1a1a",
+                                lineHeight: 20,
+                                align: "center"
+                            },
+                            c_set:{
+                                color: "#808080",
+                            }
+
+                        }
+                    },
+                    emphasis: {
+                        show: true,
+                        textStyle: {
+                            fontSize: '30',
+                            fontWeight: 'bold',
+                        }
+                    }
+                },
+                //牵引线条颜色
+                labelLine: {
+                    normal: {
+                        show: true,
+                        length: 30,
+                        length2: 50,
+                        lineStyle: {
+                            color: '#808080'
+                        },
+                    }
+                },
+                data: [],
+            }]
+        };
+        myChartType.setOption(option);
+    </script>
+</body>
+</html>
